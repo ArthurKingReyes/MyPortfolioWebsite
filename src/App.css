@@ -10,13 +10,19 @@
   background: -webkit-linear-gradient(to left, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
+  text-align: center;
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  
 }
 
 .avatar-img{
   height: 250px;
   width: 250px;
-  //padding-top: 5em;
-  border-radius: 50%;
+  /*padding-top: 5em; */
+  border-radius: 50%; /* radius of 50% makes it a circle */
 }
 
 .banner-text{
@@ -43,4 +49,22 @@
   color: white;
   font-size: 20px;
   padding: 1em;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin: auto;
+}
+
+.social-links i{
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+/* lines up multiple cards to flexbox layout */
+.projects-grid{
+  display: flex;
 }

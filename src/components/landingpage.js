@@ -18,6 +18,20 @@ class Landing extends Component{
                             <h1>Software Developer</h1>
                         <hr/>
                         <p>HTML | CSS | JavaScript | React | Java | C/C++</p>
+
+                        <div className="social-links">
+                            
+                            {/* LinkedIn */}
+                            {/*target="_blank" opens in a new tab */}
+                            <a href="https://linkedin.com/in/arthurkingreyes" rel ="noopener noreferrer" target="_blank">
+                                <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                            </a>
+
+                            {/* GitHub */}
+                            <a href="https://github.com/arthurkingreyes" rel ="noopener noreferrer" target="_blank">
+                                <i className="fa fa-github-square" aria-hidden="true"/>
+                            </a>
+                        </div>
                         </div>
                     
                     </Cell>
