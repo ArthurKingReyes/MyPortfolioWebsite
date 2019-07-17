@@ -5,6 +5,7 @@
   
 }
 
+/* landing page css */
 .landing-grid{
   background: #f46b45;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
@@ -67,4 +68,51 @@
 /* lines up multiple cards to flexbox layout */
 .projects-grid{
   display: flex;
+}
+
+/* contact page css */
+.contact-body{
+  margin: auto;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i{
+  font-size: 50px;
+  padding-right: 4rem;
+}
+
+/* resume page css */
+.resume-right-col{
+  background: #27221F;
+  color: white;
+  padding: 2em;
 }

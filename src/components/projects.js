@@ -11,7 +11,8 @@ class Projects extends Component{
         if(this.state.activeTab === 0){
             return(
                 <div className="projects-grid">
-                {/** Project 1 */}
+
+                {/** -- React Projects  -- **/}
                 <Card shadow="{5}" style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 
                     'url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png) center / cover'}}>Portfolio Website</CardTitle>
@@ -34,10 +35,11 @@ class Projects extends Component{
             )
         }
         
-        else if(this.state.activeTab === 1){
+        else if(this.state.activeTab === 1){ 
             return(
                 <div className="projects-grid">
-                {/** Project 1 */}
+                    
+                {/** -- Vanilla JavaScript  Projects-- **/}
                 <Card shadow="{5}" style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 
                     'url(https://www.iconsdb.com/icons/preview/orange/js-xxl.png) center / cover'}}>
@@ -65,7 +67,8 @@ class Projects extends Component{
         else if(this.state.activeTab === 2){
             return(
                 <div className="projects-grid">
-                {/** Project 1 */}
+
+                {/** -- Java Projects  -- **/}
                 <Card shadow="{5}" style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 
                     'url(https://static.techspot.com/images2/news/bigimage/2016/05/2016-05-31-image.jpg) center / cover'}}>
