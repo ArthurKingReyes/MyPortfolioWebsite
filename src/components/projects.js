@@ -15,7 +15,7 @@ class Projects extends Component{
                 {/** -- React Projects  -- **/}
                 <Card shadow="{5}" style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 
-                    'url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png) center / cover'}}>Portfolio Website</CardTitle>
+                    'url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png) center / cover'}}>Portfolio Website (This Site)</CardTitle>
                     {/* change url to a screenshot of the website */}
                     <CardText> My personal portfolio website exhibiting my projects as well as information about me.</CardText>
                     <CardActions border>
@@ -38,7 +38,7 @@ class Projects extends Component{
         else if(this.state.activeTab === 1){ 
             return(
                 <div className="projects-grid">
-                    
+
                 {/** -- Vanilla JavaScript  Projects-- **/}
                 <Card shadow="{5}" style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 
