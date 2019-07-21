@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardMenu, CardText, Button, IconButton} from 'react-mdl';
+import {Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, CardText, Button} from 'react-mdl';
 
 class Projects extends Component{
     constructor(props){
@@ -30,9 +30,6 @@ class Projects extends Component{
                         <Button colored>LiveDemo</Button>
                         */}
                     </CardActions>
-                    <CardMenu style={{color:'#fff'}}>
-                        <IconButton name='share' />
-                    </CardMenu>
                 </Card>
                 </div>
             )
@@ -59,9 +56,6 @@ class Projects extends Component{
                         <Button colored>LiveDemo</Button>
                         */}
                     </CardActions>
-                    <CardMenu style={{color:'#fff'}}>
-                        <IconButton name='share' />
-                    </CardMenu>
                 </Card>
                 </div>
             )
@@ -83,14 +77,7 @@ class Projects extends Component{
                         <a href="https://github.com/ArthurKingReyes/PrimeGenJava" rel="noopener noreferrer" target="_blank">
                             <Button colored>GitHub</Button>
                         </a>
-                        {/*  
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                        */}
                     </CardActions>
-                    <CardMenu style={{color:'#fff'}}>
-                        <IconButton name='share' />
-                    </CardMenu>
                 </Card>
                 </div>
             )
