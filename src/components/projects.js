@@ -17,7 +17,10 @@ class Projects extends Component{
                     <CardTitle style={{color: '#fff', height: '176px', background: 
                     'url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png) center / cover'}}>Portfolio Website (This Site)</CardTitle>
                     {/* change url to a screenshot of the website */}
-                    <CardText> My personal portfolio website exhibiting my projects as well as information about me.</CardText>
+                    <CardText> 
+                        My personal portfolio website exhibiting my projects as well as information about me.
+                        Uses React-MDL for material ui.
+                    </CardText>
                     <CardActions border>
                         <a href="https://github.com/ArthurKingReyes/MyPortfolioWebsite" rel="noopener noreferrer" target="_blank">
                             <Button colored>GitHub</Button>

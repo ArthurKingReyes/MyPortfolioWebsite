@@ -16,7 +16,6 @@ class Experience extends Component{
             </Grid>
         )
     }
-
 }
 
 export default Experience;
