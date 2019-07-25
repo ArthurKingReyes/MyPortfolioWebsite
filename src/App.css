@@ -74,6 +74,7 @@
 /* lines up multiple cards to flexbox layout */
 .projects-grid{
   display: flex;
+  flex-direction: column;
 }
 
 /* contact page css */

@@ -3,7 +3,12 @@ import React, {Component} from 'react';
 class About extends Component{
     render(){
         return(
-            <div><h1>About Me Page</h1></div>
+            <div style={{textAlign: 'center'}}>
+                <h1 style={{fontSize: '66px'}}>About Me</h1>
+                <p>
+                    
+                </p>
+            </div>
         )
     }
 }

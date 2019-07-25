@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
-import avatar from './images/avatar.png';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
@@ -11,15 +10,15 @@ class Resume extends Component{
             <div>
                 <Grid>
                     <Cell col={4}>
-                        <div style={{textAlign: 'center'}}>
+                        {/* <div style={{textAlign: 'center'}}>
                         <img
                             src={avatar}
                             alt="avatar"
                             style={{height: '250px'}}
                         />
-                        </div>
+                        </div> */}
                         <h2 style={{paddingTop: '2em'}}>Arthur King Reyes</h2>
-                        <h4 style={{color: 'grey'}}>Programmer</h4>
+                        <h4 style={{color: 'grey'}}>Software Developer</h4>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>

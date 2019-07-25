@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
-import avatar from './images/avatar.png';
+import self from './images/self.JPG';
 
 class Contact extends Component{
     render(){
@@ -12,8 +12,8 @@ class Contact extends Component{
                         
                         <h2>Arthur King Reyes</h2>
                         <img
-                            src={avatar}
-                            alt="avatar"
+                            src={self}
+                            alt="myself"
                             style={{height: '250px'}}
                         />
                         
@@ -26,7 +26,7 @@ class Contact extends Component{
                             <ListItem>
                                 <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                                    (###) ### - ####</ListItemContent>
+                                    (619) 630 - 4383</ListItemContent>
                             </ListItem>
 
                             <ListItem>

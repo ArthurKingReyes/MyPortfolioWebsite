@@ -25,12 +25,26 @@ class Projects extends Component{
                         <a href="https://github.com/ArthurKingReyes/MyPortfolioWebsite" rel="noopener noreferrer" target="_blank">
                             <Button colored>GitHub</Button>
                         </a>
-                        {/*  
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                        */}
                     </CardActions>
                 </Card>
+
+                <Card shadow="{5}" style={{minWidth: '450', margin:'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 
+                    'url(https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png) center / cover'}}>Pixabay Image Finder</CardTitle>
+                    {/* change url to a screenshot of the website */}
+                    <CardText> 
+                    Uses the Pixabay REST API and Axios, a Promise based HTTP client, to retrieve images from the Pixabay website based on the search keyword the user inputs.
+                    </CardText>
+                    <CardActions border>
+                        <a href="https://github.com/ArthurKingReyes/Pixabay-Image-Finder" rel="noopener noreferrer" target="_blank">
+                            <Button colored>GitHub</Button>
+                        </a>
+                        <a href="https://dazzling-boyd-08c457.netlify.com/" rel="noopener noreferrer" target="_blank">
+                            <Button colored>Demo</Button>
+                        </a>
+                    </CardActions>
+                </Card>
+                
                 </div>
             )
         }
@@ -39,22 +53,18 @@ class Projects extends Component{
             return(
                 <div className="projects-grid">
 
-                {/** -- Vanilla JavaScript  Projects-- **/}
+                {/** -- JavaScript  Projects-- **/}
                 <Card shadow="{5}" style={{minWidth: '450', margin:'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 
-                    'url(https://www.iconsdb.com/icons/preview/orange/js-xxl.png) center / cover'}}>
+                    <CardTitle style={{color: 'black', height: '176px', background: 
+                    'url(https://i2.wp.com/www.nuimedia.com/wp-content/uploads/2017/01/javascript-logo.png?ssl=1) center / cover'}}>
                         Wendler's 5/3/1 Assistant
                     </CardTitle>
                     {/* change url to a screenshot of the website */}
                     <CardText>A calculator based on the Wendler's 531 strength training program. </CardText>
                     <CardActions border>
-                        <a href="http://arthurkingreyes.com/wendlers/" rel="noopener noreferrer" target="_blank">
+                        <a href="https://laughing-pasteur-894d80.netlify.com/" rel="noopener noreferrer" target="_blank">
                             <Button colored>Demo</Button>
                         </a>
-                        {/*  
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                        */}
                     </CardActions>
                 </Card>
                 </div>
@@ -84,13 +94,12 @@ class Projects extends Component{
         }
     }
 
-
     render(){
         return(
             <div className="category-tabs"> 
             <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
                 <Tab>React</Tab>
-                <Tab>Vanilla JavaScript</Tab>
+                <Tab>JavaScript</Tab>
                 <Tab>Java</Tab>
             </Tabs>
 
