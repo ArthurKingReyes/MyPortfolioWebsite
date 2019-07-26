@@ -8,7 +8,7 @@ class Contact extends Component{
             <div className="contact-body">
                 <Grid className="contact-grid">
                     {/** Left Cell */}
-                    <Cell col={6}>
+                    {/* <Cell col={6}>
                         
                         <h2>Arthur King Reyes</h2>
                         <img
@@ -17,7 +17,7 @@ class Contact extends Component{
                             style={{height: '250px'}}
                         />
                         
-                    </Cell>
+                    </Cell> */}
                     <Cell col={6}>
                         <h2>Contact Me</h2>
                         <hr/>
@@ -26,9 +26,9 @@ class Contact extends Component{
                             <ListItem>
                                 <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                                    (619) 630 - 4383</ListItemContent>
+                                     (619) 630-4383</ListItemContent>
                             </ListItem>
-
+                            
                             <ListItem>
                                 <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
                                 <i className="fa fa-envelope" aria-hidden="true"/>

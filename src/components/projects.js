@@ -57,10 +57,10 @@ class Projects extends Component{
                 <Card shadow="{5}" style={{minWidth: '450', margin:'auto'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 
                     'url(https://i2.wp.com/www.nuimedia.com/wp-content/uploads/2017/01/javascript-logo.png?ssl=1) center / cover'}}>
-                        Wendler's 5/3/1 Assistant
+                       
                     </CardTitle>
                     {/* change url to a screenshot of the website */}
-                    <CardText>A calculator based on the Wendler's 531 strength training program. </CardText>
+                    <CardText><h5 style={{color: 'black'}}>Wendler's 5/3/1 Assistant</h5>A calculator based on the Wendler's 531 strength training program. </CardText>
                     <CardActions border>
                         <a href="https://laughing-pasteur-894d80.netlify.com/" rel="noopener noreferrer" target="_blank">
                             <Button colored>Demo</Button>
