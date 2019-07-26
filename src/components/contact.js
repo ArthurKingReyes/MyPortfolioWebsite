@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
-import self from './images/self.JPG';
+// import self from './images/self.JPG';
 
 class Contact extends Component{
     render(){
@@ -30,8 +30,9 @@ class Contact extends Component{
                             </ListItem>
                             
                             <ListItem>
+                            <i className="fa fa-envelope" aria-hidden="true"/>
                                 <ListItemContent style={{fontSize:'25px', fontFamily:'Anton'}}>
-                                <i className="fa fa-envelope" aria-hidden="true"/>
+                                {/* <i className="fa fa-envelope" aria-hidden="true"/> */}
                                     arthurreyes90@gmail.com</ListItemContent>
                             </ListItem>
 
