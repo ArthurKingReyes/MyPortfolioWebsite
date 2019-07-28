@@ -78,6 +78,7 @@
 .projects-grid{
   display: flex;
   flex-direction: column;
+  overflow-x: auto;
 }
 
 /* contact page css */
