@@ -17,12 +17,12 @@ return (
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration:'none', color:'black'}} to='/'>Home</Link>}>
+        <Drawer title={<Link onClick={()=>hideMenu()} style={{textDecoration:'none', color:'black'}} to='/'>Home</Link>}>
             <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/resume" onClick={()=>hideMenu()}>Resume</Link>
+                <Link to="/projects" onClick={()=>hideMenu()}>Projects</Link>
+                <Link to="/aboutme" onClick={()=>hideMenu()}>About Me</Link>
+                <Link to="/contact" onClick={()=>hideMenu()}>Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
@@ -32,6 +32,12 @@ return (
     </Layout>
 </div>
   );
+}
+
+// Hide navigation drawer after clicking page name
+function hideMenu(){
+    var selectorId = document.querySelector('.mdl-layout');
+    selectorId.MaterialLayout.toggleDrawer();
 }
 
 export default App;
