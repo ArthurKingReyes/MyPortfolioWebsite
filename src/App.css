@@ -38,10 +38,12 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .banner-text h1{
-  font-size: 60px;
+  font-size: 55px;
   font-weight: bold;
   color: white;
 }
@@ -60,8 +62,8 @@
 
 .social-links{
   display: flex;
-  justify-content: space-between;
-  width: 30%;
+  justify-content: center;
+  /* width: 30%; */
   flex-flow: row wrap;
   margin: auto;
 }
