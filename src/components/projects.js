@@ -47,7 +47,7 @@ class Projects extends Component{
                         <a href="https://github.com/ArthurKingReyes/Pixabay-Image-Finder" rel="noopener noreferrer" target="_blank">
                             <Button colored>GitHub</Button>
                         </a>
-                        <a href="https://dazzling-boyd-08c457.netlify.com/" rel="noopener noreferrer" target="_blank">
+                        <a href="https://akr-pixabay.netlify.com/" rel="noopener noreferrer" target="_blank">
                             <Button colored>Demo</Button>
                         </a>
                     </CardActions>
@@ -72,7 +72,7 @@ class Projects extends Component{
                     </CardText>
                     
                     <CardActions border>
-                        <a href="https://laughing-pasteur-894d80.netlify.com/" rel="noopener noreferrer" target="_blank">
+                        <a href="https://akr-wendlers.netlify.com/" rel="noopener noreferrer" target="_blank">
                             <Button colored>Demo</Button>
                         </a>
                     </CardActions>
